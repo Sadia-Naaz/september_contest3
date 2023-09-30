@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+    margin: 0px;
+  background-color: black;
+  color: aliceblue;
+  font-size: 24px;
+  font-family: roboto; 
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+ 
+}
+.timer-input-section{
+    width: 500px;
+    height: 100px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: grey;
+     border-radius: 10px;
+     padding: 5px;
+     margin: 5px;
+}
+
+#start-button , .stop-button{
+    background-color: yellow;
+    border-radius: 15px;
+    height: 50px;
+    width: 100px;
+}
+#Current-timers{
+    background-color: rgb(71, 69, 69);
+    color:aliceblue;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+}
+.active-timers-section{
+     width: 500px;
+     height: 100px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+     background-color: grey;
+     border-radius: 10px;
+     padding: 5px;
+     margin: 5px;
+
+}
+.timer{
+    width: 500px;
+     height: 100px;
+     display: flex;
+    justify-content: space-around;
+     align-items: center;
+     background-color: grey;
+     border-radius: 10px;
+     padding: 5px;
+     margin: 5px;
+}
+#timer-hours,#timer-minutes,#timer-seconds{
+background-color: grey;
+border: none;
+width: 50px;
+height: 50px;
+color:black;
+border: 0px 0px 2px 0px solid bisque;
+
+}
